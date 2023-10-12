@@ -21,11 +21,11 @@ public class Foo {
   @Column(name = "FOO")
   private String foo;
 
-  Foo(String foo) {
+  public Foo(String foo) {
     this.foo = foo;
   }
 
-  Foo() {
+  public Foo() {
     // Default constructor needed by JPA
   }
 
