@@ -1,5 +1,5 @@
 # Spring Boot - Multiple Datasources
-An example how to configure multiple datasources in a Spring Boot application
+An example how to configure multiple datasources in a Spring Boot application.  Updated Spring Boot version and enabled creating entries in 2 H2 database files.
 
 # My related Medium blog posts:
 * [Using multiple datasources with Spring Boot and Spring Data 💈 ⇄ 🌱 ⇄ 💈](https://medium.com/@joeclever/using-multiple-datasources-with-spring-boot-and-spring-data-6430b00c02e7 "Using multiple datasources with Spring Boot and Spring Data")
