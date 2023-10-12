@@ -49,8 +49,6 @@ public class FooBarController {
 	@RequestMapping("/foobar/{id}")
 	public String fooBar(@PathVariable("id") Long id) {
 
-		System.out.println("aaa");
-
 		Foo foo = new Foo();
 		if (fooRepo.findById(id).isPresent()) {
 			foo = fooRepo.findById(id).get();
@@ -66,8 +64,6 @@ public class FooBarController {
 
 	@RequestMapping("/foobar/create/{number}")
 	public String create(@PathVariable("number") Long number) {
-
-		System.out.println("bbb");
 
 		Foo foo = new Foo("Foo" + number);
 		fooRepo.save(foo);
